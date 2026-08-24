@@ -1,0 +1,38 @@
+name: Feature request
+description: Propose a focused improvement with a concrete use case.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / use case
+      description: What real problem would this solve, and for whom?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed direction
+      description: Describe the smallest useful solution. Implementation details are optional.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Existing project behavior, libraries, workflows, or simpler approaches you considered.
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: Compatibility / security considerations
+      description: Note API compatibility, privacy, security, deployment, or maintenance tradeoffs when relevant.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues and discussions for similar requests.
+          required: true
+        - label: This request describes a concrete use case rather than only a technology preference.
+          required: true
