@@ -1,0 +1,60 @@
+name: Bug report
+description: Report a reproducible problem in an AxiomNode Lab project.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Remove secrets, tokens, personal data, and confidential information before submitting.
+  - type: input
+    id: version
+    attributes:
+      label: Version / commit
+      description: Package version, release, tag, or commit SHA where the issue occurs.
+      placeholder: e.g. v0.5.0 or main@abc123
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, runtime, browser, container, or other relevant environment details.
+      placeholder: e.g. Fedora 44, Node.js 24
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Minimal reproduction
+      description: Give the smallest reliable sequence that reproduces the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Sanitized logs or context
+      description: Optional. Do not include credentials or private data.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues for the same problem.
+          required: true
+        - label: I removed secrets, tokens, personal data, and confidential information.
+          required: true
+        - label: This is not a vulnerability report that should be handled privately.
+          required: true
