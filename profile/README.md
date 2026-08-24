@@ -155,8 +155,8 @@ As our public work becomes available, you can:
 
 ### المؤسسون المشاركون
 
-- **Alaa Madi** — [@alaamadii](https://github.com/alaamadii)
 - **Imed Kablavi** — [@imedkablavi](https://github.com/imedkablavi)
+- **Alaa Madi** — [@alaamadii](https://github.com/alaamadii)
 
 إذا كنت مهتمًا بالتعاون معنا، يمكنك متابعة مستودعات المنظمة العامة والتواصل مع المؤسسين من خلال GitHub.
 
