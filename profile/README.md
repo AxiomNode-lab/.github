@@ -1,115 +1,171 @@
 <div align="center">
 
-  <img src="./assets/axiomnode-lab-poster.jpg" alt="AxiomNode Lab — student-led technology team" width="820" />
+# AxiomNode Lab
 
-  <br />
-  <br />
+### Student-Led Technology Team
 
-  [![Student-Led](https://img.shields.io/badge/Student--Led-Team-00D9FF?style=for-the-badge)](#about-us)
-  [![Open Source](https://img.shields.io/badge/Open%20Source-Minded-8B5CF6?style=for-the-badge&logo=github)](#what-we-build)
-  [![Collaboration](https://img.shields.io/badge/Collaboration-Welcome-EC4899?style=for-the-badge)](#collaborate-with-us)
+**Open Source · Teamwork · Real Projects**
 
-  **Turning ambitious ideas into useful, reliable digital products.**
+We build open-source tools and practical digital products while learning, collaborating, and growing together.
 
-  *نحوّل الأفكار الطموحة إلى منتجات رقمية مفيدة وموثوقة.*
+**نبني أدوات مفتوحة المصدر ومنتجات رقمية حقيقية من خلال التعلّم والتعاون والعمل الجماعي.**
 
 </div>
 
 ---
 
-## About Us
+## About AxiomNode Lab
 
-**AxiomNode Lab** is a student-led technology team focused on learning through building. We design and develop practical software, intelligent tools, and open-source solutions while growing through collaboration, experimentation, and real project experience.
+**AxiomNode Lab** is a student-led technology team created by developers who believe that the best way to learn technology is to build with it.
 
-We believe strong products begin with a clear problem, thoughtful engineering, continuous testing, and a team that learns together.
+We turn ideas into practical software, experiment with modern technologies, and work together on projects that solve real problems.
 
-> Some of our projects remain private while they are under active development. We share them publicly only when they are ready.
+Our goal is not only to write code, but also to gain real experience in planning, product development, testing, collaboration, and continuous improvement.
 
-## What We Build
+> Some of our projects remain private while they are under active development. We publish projects and technical details only when they are ready to be shared.
 
-| 🧠 Intelligent Systems | 💻 Software Products | 🌍 Open Source | 🔐 Secure Engineering |
-| :---: | :---: | :---: | :---: |
-| Practical AI-powered tools | Useful and scalable applications | Reusable tools for developers | Privacy-aware, dependable software |
+## What We Do
 
-Our interests include:
+| Area | Our Work |
+| --- | --- |
+| **Open-Source Development** | Build useful tools and reusable software that can benefit developers and communities. |
+| **Digital Products** | Develop practical applications designed to become reliable, publishable products. |
+| **Ideas to Projects** | Transform technical ideas into structured, testable, and working solutions. |
+| **Learning by Building** | Develop our skills through implementation, teamwork, feedback, and experimentation. |
+| **Collaborative Engineering** | Share planning, development, reviews, decisions, and credit across the team. |
 
-- Artificial intelligence and developer tools
-- Full-stack applications and digital products
-- Automation, testing, and reliable delivery
-- Open-source collaboration and shared learning
+## Our Interests
+
+We are especially interested in:
+
+- Software engineering and full-stack development
+- Artificial intelligence and intelligent systems
+- Cybersecurity and privacy-aware engineering
+- Developer tools and automation
+- Product design and user experience
+- Testing, reliability, and continuous improvement
+- Open-source collaboration
 
 ## How We Work
 
-```mermaid
-flowchart LR
-    A["Discover a real problem"] --> B["Design a focused solution"]
-    B --> C["Build a working product"]
-    C --> D["Test, learn, and improve"]
-    D --> E["Release when ready"]
-```
+Our projects generally follow this process:
 
-Every project follows four principles:
+1. **Identify a real problem** and understand who it affects.
+2. **Shape the idea** into a focused and achievable solution.
+3. **Plan the work** and divide responsibilities clearly.
+4. **Build a working product** using appropriate technologies.
+5. **Test and review** the result as a team.
+6. **Improve continuously** based on evidence and feedback.
+7. **Share when ready** without exposing unfinished or private work.
 
-| Principle | What it means to us |
-| --- | --- |
-| **Build with purpose** | Start with a real problem and a clear outcome. |
-| **Learn by doing** | Turn knowledge into working, testable software. |
-| **Collaborate openly** | Share responsibility, feedback, and credit. |
-| **Improve continuously** | Treat every version as an opportunity to learn. |
+## Our Principles
 
-## Meet the Co-Founders
+- **Purpose before complexity:** We build around real needs instead of unnecessary features.
+- **Learning through practice:** Every project should create meaningful practical experience.
+- **Shared ownership:** Responsibility, decisions, and recognition belong to the team.
+- **Quality matters:** Testing, documentation, security, and maintainability are part of development.
+- **Privacy during development:** Unfinished projects remain private until the team decides they are ready.
+- **Continuous improvement:** We learn from every version, challenge, and result.
 
-| Co-Founder | GitHub | Focus |
+## Who Can Collaborate With Us?
+
+We welcome motivated people who enjoy building and learning, including:
+
+- Programmers and software developers
+- People interested in artificial intelligence or cybersecurity
+- Designers and creative problem-solvers
+- Contributors who value teamwork and clear communication
+- Students who want practical experience through real projects
+
+You do not need to know everything. Curiosity, commitment, respectful collaboration, and a willingness to learn are what matter most.
+
+## Co-Founders
+
+| Co-Founder | GitHub | Role |
 | --- | --- | --- |
-| **Alaa Madi** | [@alaamadii](https://github.com/alaamadii) | Product development, AI, and software engineering |
-| **Imed Kablavi** | [@imedkablavi](https://github.com/imedkablavi) | Product development and software engineering |
+| **Alaa Madi** | [@alaamadii](https://github.com/alaamadii) | Co-Founder |
+| **Imed Kablavi** | [@imedkablavi](https://github.com/imedkablavi) | Co-Founder |
 
-Both founders share ownership of the organization and collaborate across planning, development, review, and product decisions.
+Both co-founders share ownership of AxiomNode Lab and collaborate on planning, development, reviews, and product decisions.
 
 ## Collaborate With Us
 
-We welcome developers, designers, and curious builders who value practical learning, teamwork, and meaningful technology.
+As our public work becomes available, you can:
 
-You can:
+- Explore our public repositories
+- Contribute through issues and pull requests
+- Suggest ideas and improvements
+- Connect with the co-founders through GitHub
 
-- Explore our public repositories as they become available
-- Open an issue or discussion in the relevant public repository
-- Connect with either co-founder through GitHub
+> If you are passionate about technology and want to help build something meaningful with a team, you are welcome to follow our work and reach out.
 
-<div align="center">
+---
 
-  [![AxiomNode Lab](https://img.shields.io/badge/GitHub-AxiomNode--lab-0D1117?style=for-the-badge&logo=github)](https://github.com/AxiomNode-lab)
-  [![Alaa](https://img.shields.io/badge/GitHub-alaamadii-00B8D9?style=for-the-badge&logo=github)](https://github.com/alaamadii)
-  [![Imed](https://img.shields.io/badge/GitHub-imedkablavi-8B5CF6?style=for-the-badge&logo=github)](https://github.com/imedkablavi)
+<div dir="rtl">
+
+## نبذة بالعربية
+
+**AxiomNode Lab** فريق طلابي تقني تأسس على فكرة بسيطة: أفضل طريقة لتعلّم التقنية هي استخدامها في بناء مشاريع حقيقية.
+
+نعمل معًا على تطوير أدوات وبرامج مفتوحة المصدر، وبناء منتجات رقمية قابلة للنشر والتوسع، وتحويل الأفكار التقنية إلى حلول عملية يمكن اختبارها وتحسينها.
+
+هدفنا لا يقتصر على كتابة الكود، بل يشمل اكتساب خبرة حقيقية في التخطيط، وتطوير المنتجات، والاختبار، والتعاون، ومراجعة العمل.
+
+تبقى بعض مشاريعنا خاصة خلال مرحلة التطوير، ولا ننشرها أو نكشف تفاصيلها إلا عندما يقرر الفريق أنها أصبحت جاهزة.
+
+### ماذا نعمل؟
+
+- نطوّر أدوات وبرامج مفتوحة المصدر.
+- نبني منتجات رقمية عملية وقابلة للتطوير.
+- نحوّل الأفكار إلى مشاريع حقيقية ومنظمة.
+- نتعلّم من خلال التطبيق والتجربة.
+- نتعاون في التخطيط والبرمجة والمراجعة واتخاذ القرارات.
+- نهتم بجودة البرمجيات والاختبارات والأمان والتوثيق.
+
+### مجالات اهتمامنا
+
+- هندسة البرمجيات وتطوير التطبيقات.
+- الذكاء الاصطناعي والأنظمة الذكية.
+- الأمن السيبراني والخصوصية.
+- أدوات المطورين والأتمتة.
+- تصميم المنتجات وتجربة المستخدم.
+- الاختبارات وجودة البرمجيات.
+- المشاريع مفتوحة المصدر.
+
+### مبادئنا
+
+- نبدأ من مشكلة حقيقية وهدف واضح.
+- نتعلّم من خلال التطبيق العملي.
+- نتشارك المسؤوليات والقرارات والتقدير.
+- نهتم بالجودة والأمان وقابلية صيانة البرمجيات.
+- نحافظ على خصوصية المشاريع خلال مرحلة التطوير.
+- نراجع عملنا ونعمل على تحسينه باستمرار.
+
+### من يمكنه التعاون معنا؟
+
+نرحّب بـ:
+
+- المبرمجين ومطوري البرمجيات.
+- المهتمين بالذكاء الاصطناعي أو الأمن السيبراني.
+- المصممين وأصحاب الأفكار الإبداعية.
+- الطلاب الراغبين في اكتساب خبرة عملية.
+- كل شخص لديه شغف بالتقنية والعمل الجماعي والتعلّم.
+
+ليس المطلوب أن تعرف كل شيء؛ الأهم هو الالتزام، وحب التعلّم، والتواصل الواضح، واحترام العمل الجماعي.
+
+### المؤسسون المشاركون
+
+- **Alaa Madi** — [@alaamadii](https://github.com/alaamadii)
+- **Imed Kablavi** — [@imedkablavi](https://github.com/imedkablavi)
+
+إذا كنت مهتمًا بالتعاون معنا، يمكنك متابعة مستودعات المنظمة العامة والتواصل مع المؤسسين من خلال GitHub.
 
 </div>
 
 ---
 
-<details dir="rtl">
-<summary><strong>نبذة بالعربية</strong></summary>
-
-### من نحن؟
-
-**AxiomNode Lab** فريق طلابي تقني نتعلّم من خلال بناء منتجات حقيقية. نهتم بتطوير البرمجيات، والأدوات الذكية، والمشاريع مفتوحة المصدر، مع التركيز على التعاون والتجربة والتحسين المستمر.
-
-نبدأ من مشكلة حقيقية، نصمّم حلًا واضحًا، نبني نسخة عملية، ثم نختبرها ونطوّرها حتى تصبح جاهزة للنشر.
-
-> تبقى بعض مشاريعنا خاصة خلال مرحلة التطوير، ولا ننشرها إلا عندما تصبح جاهزة.
-
-### المؤسسون
-
-- **علاء ماضي** — مؤسس مشارك — [@alaamadii](https://github.com/alaamadii)
-- **عماد قبلاوي** — مؤسس مشارك — [@imedkablavi](https://github.com/imedkablavi)
-
-### انضم إلى رحلتنا
-
-نرحّب بالمبرمجين والمصممين وكل شخص لديه شغف بالتقنية والعمل الجماعي. يمكن التواصل معنا من خلال حساباتنا على GitHub أو المشاركة في مستودعاتنا العامة عندما تصبح متاحة.
-
-</details>
-
 <div align="center">
 
-  <sub>Code with purpose · Build with care · Grow together</sub>
+**Code with purpose · Build with care · Grow together**
 
 </div>
