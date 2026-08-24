@@ -1,174 +1,129 @@
 <div align="center">
 
-<p align="center">
-  <img
-    src="./assets/baner.png"
-    alt="AxiomNode Lab — Student-Led Technology Team"
-    width="100%"
-  />
-</p>
+<img src="./assets/baner.png" alt="AxiomNode Lab" width="100%" />
 
+# AxiomNode Lab
 
-We build open-source tools and practical digital products while learning, collaborating, and growing together.
+**Student-led engineering team building open-source tools, security-focused software, and practical digital products.**
 
-**نبني أدوات مفتوحة المصدر ومنتجات رقمية حقيقية من خلال التعلّم والتعاون والعمل الجماعي.**
+[![Open Source](https://img.shields.io/badge/Open%20Source-built%20in%20public-2ea44f)](https://github.com/AxiomNode-lab)
+[![AxiomGuard](https://img.shields.io/badge/Featured-AxiomGuard-181717?logo=github)](https://github.com/AxiomNode-lab/AxiomGuard)
+[![Members](https://img.shields.io/badge/Team-public%20members-0969da)](https://github.com/orgs/AxiomNode-lab/people)
+
+**نبني أدوات مفتوحة المصدر ومنتجات تقنية حقيقية من خلال العمل الجماعي والتعلّم بالتطبيق.**
 
 </div>
 
 ---
 
-## About AxiomNode Lab
+## What we build
 
-**AxiomNode Lab** is a student-led technology team created by developers who believe that the best way to learn technology is to build with it.
+AxiomNode Lab is a student-led technology team focused on learning through real engineering work. We take ideas from problem definition to implementation, testing, documentation, release, and maintenance.
 
-We turn ideas into practical software, experiment with modern technologies, and work together on projects that solve real problems.
-
-Our goal is not only to write code, but also to gain real experience in planning, product development, testing, collaboration, and continuous improvement.
-
-> Some of our projects remain private while they are under active development. We publish projects and technical details only when they are ready to be shared.
-
-## What We Do
-
-| Area | Our Work |
+| Focus | What it means here |
 | --- | --- |
-| **Open-Source Development** | Build useful tools and reusable software that can benefit developers and communities. |
-| **Digital Products** | Develop practical applications designed to become reliable, publishable products. |
-| **Ideas to Projects** | Transform technical ideas into structured, testable, and working solutions. |
-| **Learning by Building** | Develop our skills through implementation, teamwork, feedback, and experimentation. |
-| **Collaborative Engineering** | Share planning, development, reviews, decisions, and credit across the team. |
+| **Developer tools** | Reusable packages, automation, CLIs, and integrations that remove repetitive work. |
+| **Security engineering** | Defensive tooling, privacy-aware defaults, secure development patterns, and auditable behavior. |
+| **Open source** | Public code, useful documentation, reproducible builds, issue-driven development, and contributor-friendly workflows. |
+| **Product engineering** | Turning prototypes into usable software with testing, release processes, reliability work, and clear UX. |
+| **Learning by building** | Members gain practical experience through code reviews, ownership, debugging, documentation, and releases. |
 
-## Our Interests
+## Featured project
 
-We are especially interested in:
+### 🛡️ [AxiomGuard](https://github.com/AxiomNode-lab/AxiomGuard)
 
-- Software engineering and full-stack development
-- Artificial intelligence and intelligent systems
-- Cybersecurity and privacy-aware engineering
-- Developer tools and automation
-- Product design and user experience
-- Testing, reliability, and continuous improvement
-- Open-source collaboration
+A zero-runtime-dependency security SDK for Node.js and TypeScript services.
 
-## How We Work
+It brings together practical backend security building blocks including API keys, webhook verification and replay protection, secure cookies, CSRF/CORS controls, defensive HTTP headers, SSRF-oriented URL checks, rate limiting, secret-safe logging, environment validation, a SARIF-capable secret scanner, and Express/Fastify/Hono/Redis adapters.
 
-Our projects generally follow this process:
+```bash
+npm install @axiomnode-lab/guard
+```
 
-1. **Identify a real problem** and understand who it affects.
-2. **Shape the idea** into a focused and achievable solution.
-3. **Plan the work** and divide responsibilities clearly.
-4. **Build a working product** using appropriate technologies.
-5. **Test and review** the result as a team.
-6. **Improve continuously** based on evidence and feedback.
-7. **Share when ready** without exposing unfinished or private work.
+> We prefer focused, documented controls with explicit security boundaries over broad “secure by default” claims.
 
-## Our Principles
+## Our people
 
-- **Purpose before complexity:** We build around real needs instead of unnecessary features.
-- **Learning through practice:** Every project should create meaningful practical experience.
-- **Shared ownership:** Responsibility, decisions, and recognition belong to the team.
-- **Quality matters:** Testing, documentation, security, and maintainability are part of development.
-- **Privacy during development:** Unfinished projects remain private until the team decides they are ready.
-- **Continuous improvement:** We learn from every version, challenge, and result.
+<table>
+<tr>
+<td align="center" width="180">
+<a href="https://github.com/imedkablavi">
+<img src="https://github.com/imedkablavi.png?size=110" width="90" alt="Imed Kablavi"/><br/>
+<strong>Imed Kablavi</strong>
+</a><br/>
+<sub>Co-Founder</sub>
+</td>
+<td align="center" width="180">
+<a href="https://github.com/alaamadii">
+<img src="https://github.com/alaamadii.png?size=110" width="90" alt="Alaa Madi"/><br/>
+<strong>Alaa Madi</strong>
+</a><br/>
+<sub>Co-Founder</sub>
+</td>
+</tr>
+</table>
 
-## Who Can Collaborate With Us?
+GitHub only shows organization membership publicly when each member chooses **Public** membership. The complete visible roster is available on the [organization People page](https://github.com/orgs/AxiomNode-lab/people).
 
-We welcome motivated people who enjoy building and learning, including:
+## How we work
 
-- Programmers and software developers
-- People interested in artificial intelligence or cybersecurity
-- Designers and creative problem-solvers
-- Contributors who value teamwork and clear communication
-- Students who want practical experience through real projects
+1. Start from a real problem and define a useful scope.
+2. Build the smallest version that can be tested honestly.
+3. Use branches, pull requests, reviews, and CI instead of treating `main` as a scratchpad.
+4. Add negative tests and failure-mode coverage for security-sensitive behavior.
+5. Document what a feature does **and what it does not guarantee**.
+6. Release only after the project has a repeatable build/test path.
+7. Keep improving based on evidence, bug reports, and real usage.
 
-You do not need to know everything. Curiosity, commitment, respectful collaboration, and a willingness to learn are what matter most.
+## Engineering principles
 
-## Co-Founders
+- **Useful before impressive** — features should solve a concrete problem.
+- **Security claims need evidence** — tests and documented boundaries come before marketing language.
+- **Small dependencies, clear ownership** — we avoid unnecessary supply-chain surface where practical.
+- **Reproducibility matters** — CI, versioning, release notes, checksums/provenance where appropriate.
+- **Contributors should understand the project quickly** — readable READMEs, issues, examples, and contribution guidance are part of the product.
+- **Private while unfinished, public when ready** — some work stays private until it is suitable for external use.
 
-| Co-Founder | GitHub | Role |
-| --- | --- | --- |
-| **Alaa Madi** | [@alaamadii](https://github.com/alaamadii) | Co-Founder |
-| **Imed Kablavi** | [@imedkablavi](https://github.com/imedkablavi) | Co-Founder |
+## Contribute or collaborate
 
-Both co-founders share ownership of AxiomNode Lab and collaborate on planning, development, reviews, and product decisions.
+Public repositories are open for useful issues, pull requests, testing, documentation improvements, and technical discussion. Students and developers who want hands-on experience are welcome to follow the work and contribute where a repository accepts contributions.
 
-## Collaborate With Us
+**Good first contribution:** reproduce a bug, improve a test, clarify documentation, or propose a focused feature with a concrete use case.
 
-As our public work becomes available, you can:
-
-- Explore our public repositories
-- Contribute through issues and pull requests
-- Suggest ideas and improvements
-- Connect with the co-founders through GitHub
-
-> If you are passionate about technology and want to help build something meaningful with a team, you are welcome to follow our work and reach out.
+[Explore repositories](https://github.com/orgs/AxiomNode-lab/repositories) · [View public members](https://github.com/orgs/AxiomNode-lab/people) · [Open AxiomGuard](https://github.com/AxiomNode-lab/AxiomGuard)
 
 ---
 
-<div dir="rtl">
+<details>
+<summary><strong>نبذة بالعربية</strong></summary>
 
-## نبذة بالعربية
+<br/>
 
-**AxiomNode Lab** فريق طلابي تقني تأسس على فكرة بسيطة: أفضل طريقة لتعلّم التقنية هي استخدامها في بناء مشاريع حقيقية.
+**AxiomNode Lab** فريق طلابي تقني يركز على بناء مشاريع حقيقية بدل الاكتفاء بالتعلّم النظري. نعمل على أدوات مفتوحة المصدر، أدوات للمطورين، مشاريع أمنية، ومنتجات رقمية قابلة للاختبار والنشر والصيانة.
 
-نعمل معًا على تطوير أدوات وبرامج مفتوحة المصدر، وبناء منتجات رقمية قابلة للنشر والتوسع، وتحويل الأفكار التقنية إلى حلول عملية يمكن اختبارها وتحسينها.
+نهتم بأن يمر المشروع بمراحل واضحة: تحديد المشكلة، التصميم، البرمجة، الاختبار، المراجعة، التوثيق، ثم الإصدار والتحسين المستمر.
 
-هدفنا لا يقتصر على كتابة الكود، بل يشمل اكتساب خبرة حقيقية في التخطيط، وتطوير المنتجات، والاختبار، والتعاون، ومراجعة العمل.
+### كيف تظهر كعضو في المنظمة؟
 
-تبقى بعض مشاريعنا خاصة خلال مرحلة التطوير، ولا ننشرها أو نكشف تفاصيلها إلا عندما يقرر الفريق أنها أصبحت جاهزة.
+GitHub يجعل عضوية المنظمة خاصة افتراضيًا. حتى يظهر العضو للعامة ضمن صفحة الفريق، يجب أن يغيّر **Organization membership visibility** الخاصة به إلى **Public** من صفحة **People**.
 
-### ماذا نعمل؟
+### نرحب بالمساهمات في
 
-- نطوّر أدوات وبرامج مفتوحة المصدر.
-- نبني منتجات رقمية عملية وقابلة للتطوير.
-- نحوّل الأفكار إلى مشاريع حقيقية ومنظمة.
-- نتعلّم من خلال التطبيق والتجربة.
-- نتعاون في التخطيط والبرمجة والمراجعة واتخاذ القرارات.
-- نهتم بجودة البرمجيات والاختبارات والأمان والتوثيق.
+- البرمجة وهندسة البرمجيات
+- الأمن السيبراني والخصوصية
+- الذكاء الاصطناعي
+- الاختبارات وQA
+- التوثيق وتجربة المطور
+- تصميم المنتجات وتجربة المستخدم
 
-### مجالات اهتمامنا
+المهم بالنسبة لنا هو الالتزام، التواصل الواضح، واحترام العمل الجماعي أكثر من عدد التقنيات التي يعرفها الشخص.
 
-- هندسة البرمجيات وتطوير التطبيقات.
-- الذكاء الاصطناعي والأنظمة الذكية.
-- الأمن السيبراني والخصوصية.
-- أدوات المطورين والأتمتة.
-- تصميم المنتجات وتجربة المستخدم.
-- الاختبارات وجودة البرمجيات.
-- المشاريع مفتوحة المصدر.
-
-### مبادئنا
-
-- نبدأ من مشكلة حقيقية وهدف واضح.
-- نتعلّم من خلال التطبيق العملي.
-- نتشارك المسؤوليات والقرارات والتقدير.
-- نهتم بالجودة والأمان وقابلية صيانة البرمجيات.
-- نحافظ على خصوصية المشاريع خلال مرحلة التطوير.
-- نراجع عملنا ونعمل على تحسينه باستمرار.
-
-### من يمكنه التعاون معنا؟
-
-نرحّب بـ:
-
-- المبرمجين ومطوري البرمجيات.
-- المهتمين بالذكاء الاصطناعي أو الأمن السيبراني.
-- المصممين وأصحاب الأفكار الإبداعية.
-- الطلاب الراغبين في اكتساب خبرة عملية.
-- كل شخص لديه شغف بالتقنية والعمل الجماعي والتعلّم.
-
-ليس المطلوب أن تعرف كل شيء؛ الأهم هو الالتزام، وحب التعلّم، والتواصل الواضح، واحترام العمل الجماعي.
-
-### المؤسسون المشاركون
-
-- **Imed Kablavi** — [@imedkablavi](https://github.com/imedkablavi)
-- **Alaa Madi** — [@alaamadii](https://github.com/alaamadii)
-
-إذا كنت مهتمًا بالتعاون معنا، يمكنك متابعة مستودعات المنظمة العامة والتواصل مع المؤسسين من خلال GitHub.
-
-</div>
+</details>
 
 ---
 
 <div align="center">
 
-**Code with purpose · Build with care · Grow together**
+**Build useful things · Test what matters · Share what is ready**
 
 </div>
