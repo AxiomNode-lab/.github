@@ -9,8 +9,6 @@
 </p>
 
 
-**Open Source · Teamwork · Real Projects**
-
 We build open-source tools and practical digital products while learning, collaborating, and growing together.
 
 **نبني أدوات مفتوحة المصدر ومنتجات رقمية حقيقية من خلال التعلّم والتعاون والعمل الجماعي.**
