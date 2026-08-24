@@ -1,8 +1,13 @@
 <div align="center">
 
-# AxiomNode Lab
+<p align="center">
+  <img
+    src="./assets/baner.png"
+    alt="AxiomNode Lab — Student-Led Technology Team"
+    width="100%"
+  />
+</p>
 
-### Student-Led Technology Team
 
 **Open Source · Teamwork · Real Projects**
 
