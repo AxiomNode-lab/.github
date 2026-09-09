@@ -1,124 +1,109 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/AxiomNode-lab/.github/5f302b31f075729baddc8ca96e8155d6e4c55852/profile/assets/AxiomNode%20%E2%80%94%20Studio%20Banner.png" alt="AxiomNode" width="100%" />
+<img src="https://raw.githubusercontent.com/AxiomNode-lab/.github/RELEASE_BANNER_COMMIT/profile/assets/axiomnode-banner-current.png" alt="AxiomNode" width="100%" />
 
 <br />
 
 # AxiomNode
 
-### Building practical software, security tooling, and open-source technology.
+### Software engineering, security, and developer infrastructure.
 
 <p>
   <a href="https://github.com/AxiomNode-lab"><img src="https://img.shields.io/badge/GitHub-AxiomNode-181717?logo=github" alt="GitHub" /></a>
   <a href="https://github.com/AxiomNode-lab/AxiomGuard"><img src="https://img.shields.io/badge/Featured-AxiomGuard-2f81f7?logo=github" alt="AxiomGuard" /></a>
-  <a href="https://github.com/orgs/AxiomNode-lab/people"><img src="https://img.shields.io/badge/Team-Public%20Members-0969da" alt="Team" /></a>
+  <a href="https://github.com/AxiomNode-lab/DevDoctor"><img src="https://img.shields.io/badge/Featured-DevDoctor-0969da" alt="DevDoctor" /></a>
   <img src="https://img.shields.io/badge/Open%20Source-Built%20in%20Public-2ea44f" alt="Open Source" />
 </p>
 
-**نحن فريق طلابي تقني نبني أدوات مفتوحة المصدر ومنتجات رقمية حقيقية من خلال الهندسة العملية والتعلّم بالتطبيق.**
+**We build focused software for real operational problems — with an emphasis on security, reliability, clarity, and maintainability.**
 
 </div>
 
 ---
 
-## ⚡ What we build
+## What AxiomNode builds
 
-AxiomNode turns real problems into useful software — from the first idea and architecture to implementation, testing, documentation, release, and maintenance.
+AxiomNode is a software engineering studio focused on turning practical problems into well-engineered tools, infrastructure, and products.
 
-| Area | What we focus on |
+Our work spans the full engineering lifecycle: problem definition, architecture, implementation, testing, documentation, release, and continuous improvement.
+
+| Area | Focus |
 | --- | --- |
-| **Developer Tools** | CLI tools, automation, reusable packages, integrations, and workflows that reduce repetitive work. |
-| **Security Engineering** | Defensive tooling, privacy-aware defaults, secure development patterns, and auditable behavior. |
-| **Open Source** | Public code, practical documentation, reproducible workflows, issues, reviews, and contributor-friendly projects. |
-| **Product Engineering** | Turning prototypes into reliable software with testing, release processes, usability, and maintenance. |
-| **Learning by Building** | Real ownership through debugging, code reviews, documentation, shipping, and continuous improvement. |
+| **Security Engineering** | Defensive controls, security primitives, validation, privacy-aware tooling, and auditable behavior. |
+| **Developer Tooling** | CLI applications, automation, diagnostics, reusable packages, and workflows that remove engineering friction. |
+| **Infrastructure & Automation** | Reliable developer infrastructure, operational tooling, integrations, and repeatable workflows. |
+| **Product Engineering** | Turning strong technical foundations into software that is usable, testable, and maintainable. |
 
-## 🛡️ Featured project
+## Selected work
 
-### [AxiomGuard](https://github.com/AxiomNode-lab/AxiomGuard)
+### 🛡️ [AxiomGuard](https://github.com/AxiomNode-lab/AxiomGuard)
 
-A security SDK for Node.js and TypeScript services, designed around focused, testable controls rather than vague security claims.
+**Security building blocks for modern Node.js and TypeScript services.**
 
-It brings together practical backend security building blocks such as API keys, webhook verification and replay protection, secure cookies, CSRF/CORS controls, defensive HTTP headers, SSRF-oriented URL checks, rate limiting, secret-safe logging, environment validation, a SARIF-capable secret scanner, and adapters for Express, Fastify, Hono, and Redis.
+AxiomGuard provides focused primitives for API keys, signed webhooks and replay protection, browser request policy, idempotency, SSRF-aware outbound requests, rate limiting, secure cookies, CSRF, CORS, defensive headers, environment validation, secret-safe logging, and repository secret scanning. It is framework-neutral at the core and includes adapters for Express, Fastify, Hono, and Redis-backed deployments. citeturn34file0
 
 ```bash
 npm install @axiomnode-lab/guard
 ```
 
-> **Our approach:** clear boundaries, documented behavior, and evidence-backed security claims.
+> **Design principle:** security controls should be explicit, testable, and clear about their boundaries.
 
----
+### 🩺 [DevDoctor](https://github.com/AxiomNode-lab/DevDoctor)
 
-## 👥 Our people
+**Diagnose Linux developer workstations before changing them.**
 
-<table>
-<tr>
-<td align="center" width="220">
-<a href="https://github.com/imedkablavi">
-<img src="https://github.com/imedkablavi.png?size=120" width="100" alt="Imed Kablavi" /><br />
-<strong>Imed Kablavi</strong>
-</a><br />
-<sub>Co-Founder</sub>
-</td>
-<td align="center" width="220">
-<a href="https://github.com/alaamadii">
-<img src="https://github.com/alaamadii.png?size=120" width="100" alt="Alaa Madi" /><br />
-<strong>Alaa Madi</strong>
-</a><br />
-<sub>Co-Founder</sub>
-</td>
-</tr>
-</table>
+DevDoctor inspects installed tooling, identifies missing or broken development dependencies, explains PATH and package-manager conflicts, compares project requirements with the local toolchain, and produces preview-first repair or installation plans. Its diagnostic workflows are designed to be read-only by default and avoid guessing when system ownership or policy is ambiguous. citeturn35file0
 
-GitHub only shows organization membership publicly when each member chooses **Public** membership. The visible roster is available on the [organization People page](https://github.com/orgs/AxiomNode-lab/people).
-
----
-
-## 🧭 How we work
-
-```text
-Real problem
-    ↓
-Define scope
-    ↓
-Design & implement
-    ↓
-Test failure modes
-    ↓
-Review & document
-    ↓
-Release
-    ↓
-Measure, learn, improve
+```bash
+python -m pip install "git+https://github.com/AxiomNode-lab/DevDoctor.git"
+devdoctor check --profile devops
 ```
 
-We prefer small, understandable steps over inflated roadmaps and marketing language.
+---
 
-### Engineering principles
+## Engineering approach
 
-- **Useful before impressive** — every feature should solve a concrete problem.
-- **Security claims need evidence** — tests and explicit boundaries come first.
-- **Small dependencies, clear ownership** — reduce unnecessary supply-chain and maintenance surface where practical.
-- **Reproducibility matters** — CI, versioning, release notes, and provenance where appropriate.
-- **Documentation is part of the product** — contributors should understand the project quickly.
-- **Public when ready** — unfinished work may stay private until it is suitable for external use.
+```text
+Understand the problem
+        ↓
+Define a clear scope
+        ↓
+Design the simplest sound solution
+        ↓
+Implement with explicit boundaries
+        ↓
+Test normal and failure paths
+        ↓
+Document behavior and limitations
+        ↓
+Ship, observe, improve
+```
+
+We optimize for software that can be understood, tested, operated, and improved by someone other than its original author.
+
+### Principles
+
+- **Clarity over complexity** — interfaces and behavior should be easy to understand.
+- **Evidence over claims** — tests, documentation, and measurable behavior support technical decisions.
+- **Safe changes by default** — destructive or mutating actions should be explicit and reviewable.
+- **Focused dependencies** — minimize unnecessary supply-chain and maintenance surface where practical.
+- **Operational quality matters** — logging, diagnostics, release processes, and failure handling are part of the product.
+- **Documentation ships with the code** — good engineering includes explaining how and why something works.
 
 ---
 
-## 🤝 Contribute or collaborate
+## Open source
 
-Public repositories are open to useful issues, pull requests, testing, documentation improvements, and technical discussion.
+We publish selected work when it is ready to be useful outside the team. Public repositories are developed with readable documentation, reproducible workflows, issue tracking, code review, and clear security boundaries.
 
-Students and developers looking for hands-on experience are welcome to follow the work and contribute where a repository accepts contributions.
-
-**A great first contribution:** reproduce a bug, improve a test, clarify documentation, or propose one focused feature backed by a concrete use case.
+Contributions can take many forms: fixing a bug, improving a test, tightening documentation, improving developer experience, or proposing a focused change backed by a real use case.
 
 <p align="center">
   <a href="https://github.com/orgs/AxiomNode-lab/repositories"><strong>Explore repositories</strong></a>
   ·
   <a href="https://github.com/orgs/AxiomNode-lab/people"><strong>Meet the team</strong></a>
   ·
-  <a href="https://github.com/AxiomNode-lab/AxiomGuard"><strong>Open AxiomGuard</strong></a>
+  <a href="https://github.com/AxiomNode-lab/AxiomGuard"><strong>Explore AxiomGuard</strong></a>
 </p>
 
 ---
@@ -128,13 +113,13 @@ Students and developers looking for hands-on experience are welcome to follow th
 
 <br />
 
-**AxiomNode**, teorik öğrenmenin ötesine geçerek gerçek yazılım projeleri geliştiren öğrenci odaklı bir teknoloji ekibidir.
+**AxiomNode**, güvenlik, yazılım mühendisliği ve geliştirici altyapısı alanlarında pratik problemleri çözen araçlar ve yazılımlar geliştiren bir mühendislik stüdyosudur.
 
-Açık kaynak araçlar, geliştirici araçları, güvenlik odaklı yazılımlar ve kullanılabilir dijital ürünler geliştiriyoruz. Projelerimizi problem tanımından tasarım ve geliştirmeye, test ve dokümantasyondan yayın ve sürekli iyileştirmeye kadar gerçek bir mühendislik süreciyle ele alıyoruz.
+Çalışmalarımız; problem tanımı ve mimariden geliştirme, test, dokümantasyon, yayınlama ve sürekli iyileştirmeye kadar tüm mühendislik sürecini kapsar.
 
-Önceliklerimiz arasında yazılım geliştirme, siber güvenlik ve gizlilik, yapay zekâ, QA/test, dokümantasyon, geliştirici deneyimi ve ürün tasarımı bulunuyor.
+Önceliklerimiz; güvenlik mühendisliği, geliştirici araçları, otomasyon, altyapı, güvenilirlik ve sürdürülebilir ürün geliştirmedir.
 
-Bizim için teknoloji sayısından çok **sorumluluk, açık iletişim, kaliteli iş ve ekip çalışması** önemlidir.
+**Açık, test edilebilir, bakımı yapılabilir ve sınırları net yazılım geliştirmeyi hedefliyoruz.**
 
 </details>
 
@@ -143,17 +128,13 @@ Bizim için teknoloji sayısından çok **sorumluluk, açık iletişim, kaliteli
 
 <br />
 
-**AxiomNode** فريق طلابي تقني يركّز على بناء مشاريع حقيقية بدل الاكتفاء بالتعلّم النظري.
+**AxiomNode** استوديو هندسة برمجيات يركّز على بناء أدوات ومنتجات وحلول بنية تحتية للمشكلات التقنية العملية، مع اهتمام خاص بالأمان والموثوقية وقابلية الصيانة.
 
-نعمل على أدوات مفتوحة المصدر، أدوات للمطورين، مشاريع أمنية، ومنتجات رقمية قابلة للاختبار والنشر والصيانة. نتابع المشروع من تحديد المشكلة والتصميم والبرمجة، مرورًا بالاختبار والمراجعة والتوثيق، وصولًا إلى الإصدار والتحسين المستمر.
+نغطي دورة العمل كاملة من تعريف المشكلة وتصميم المعمارية، إلى التطوير والاختبار والتوثيق والإصدار والتحسين المستمر.
 
-نهتم بالبرمجة وهندسة البرمجيات، الأمن السيبراني والخصوصية، الذكاء الاصطناعي، الاختبارات وQA، التوثيق، تجربة المطور، وتصميم المنتجات.
+تشمل مجالاتنا هندسة الأمن، أدوات المطورين، الأتمتة والبنية التحتية، وتطوير المنتجات البرمجية.
 
-المهم بالنسبة لنا هو **الالتزام، التواصل الواضح، جودة العمل، وروح الفريق** أكثر من عدد التقنيات التي يعرفها الشخص.
-
-### كيف تظهر كعضو في المنظمة؟
-
-عضوية المنظمة تكون خاصة افتراضيًا في GitHub. حتى يظهر العضو للعامة ضمن صفحة الفريق، يجب تغيير **Organization membership visibility** إلى **Public** من إعدادات العضوية.
+**نؤمن بالوضوح، والاختبار، والحدود التقنية الصريحة، وبناء البرمجيات التي يمكن تشغيلها وصيانتها بثقة.**
 
 </details>
 
@@ -161,8 +142,8 @@ Bizim için teknoloji sayısından çok **sorumluluk, açık iletişim, kaliteli
 
 <div align="center">
 
-### Build useful things · Test what matters · Share what is ready
+### Build with purpose · Engineer with evidence · Ship with confidence
 
-<sub>© AxiomNode · Open-source engineering, built in public.</sub>
+<sub>© AxiomNode · Software engineering, security, and open source.</sub>
 
 </div>
