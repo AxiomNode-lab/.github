@@ -1,15 +1,15 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/AxiomNode-lab/.github/5f302b31f075729baddc8ca96e8155d6e4c55852/profile/assets/AxiomNode%20%E2%80%94%20Studio%20Banner.png" alt="AxiomNode Lab" width="100%" />
+<img src="https://raw.githubusercontent.com/AxiomNode-lab/.github/5f302b31f075729baddc8ca96e8155d6e4c55852/profile/assets/AxiomNode%20%E2%80%94%20Studio%20Banner.png" alt="AxiomNode" width="100%" />
 
 <br />
 
-# AxiomNode Lab
+# AxiomNode
 
 ### Building practical software, security tooling, and open-source technology.
 
 <p>
-  <a href="https://github.com/AxiomNode-lab"><img src="https://img.shields.io/badge/GitHub-AxiomNode--lab-181717?logo=github" alt="GitHub" /></a>
+  <a href="https://github.com/AxiomNode-lab"><img src="https://img.shields.io/badge/GitHub-AxiomNode-181717?logo=github" alt="GitHub" /></a>
   <a href="https://github.com/AxiomNode-lab/AxiomGuard"><img src="https://img.shields.io/badge/Featured-AxiomGuard-2f81f7?logo=github" alt="AxiomGuard" /></a>
   <a href="https://github.com/orgs/AxiomNode-lab/people"><img src="https://img.shields.io/badge/Team-Public%20Members-0969da" alt="Team" /></a>
   <img src="https://img.shields.io/badge/Open%20Source-Built%20in%20Public-2ea44f" alt="Open Source" />
@@ -23,7 +23,7 @@
 
 ## ⚡ What we build
 
-AxiomNode Lab turns real problems into useful software — from the first idea and architecture to implementation, testing, documentation, release, and maintenance.
+AxiomNode turns real problems into useful software — from the first idea and architecture to implementation, testing, documentation, release, and maintenance.
 
 | Area | What we focus on |
 | --- | --- |
@@ -128,7 +128,7 @@ Students and developers looking for hands-on experience are welcome to follow th
 
 <br />
 
-**AxiomNode Lab**, teorik öğrenmenin ötesine geçerek gerçek yazılım projeleri geliştiren öğrenci odaklı bir teknoloji ekibidir.
+**AxiomNode**, teorik öğrenmenin ötesine geçerek gerçek yazılım projeleri geliştiren öğrenci odaklı bir teknoloji ekibidir.
 
 Açık kaynak araçlar, geliştirici araçları, güvenlik odaklı yazılımlar ve kullanılabilir dijital ürünler geliştiriyoruz. Projelerimizi problem tanımından tasarım ve geliştirmeye, test ve dokümantasyondan yayın ve sürekli iyileştirmeye kadar gerçek bir mühendislik süreciyle ele alıyoruz.
 
@@ -143,7 +143,7 @@ Bizim için teknoloji sayısından çok **sorumluluk, açık iletişim, kaliteli
 
 <br />
 
-**AxiomNode Lab** فريق طلابي تقني يركّز على بناء مشاريع حقيقية بدل الاكتفاء بالتعلّم النظري.
+**AxiomNode** فريق طلابي تقني يركّز على بناء مشاريع حقيقية بدل الاكتفاء بالتعلّم النظري.
 
 نعمل على أدوات مفتوحة المصدر، أدوات للمطورين، مشاريع أمنية، ومنتجات رقمية قابلة للاختبار والنشر والصيانة. نتابع المشروع من تحديد المشكلة والتصميم والبرمجة، مرورًا بالاختبار والمراجعة والتوثيق، وصولًا إلى الإصدار والتحسين المستمر.
 
@@ -163,6 +163,6 @@ Bizim için teknoloji sayısından çok **sorumluluk, açık iletişim, kaliteli
 
 ### Build useful things · Test what matters · Share what is ready
 
-<sub>© AxiomNode Lab · Open-source engineering, built in public.</sub>
+<sub>© AxiomNode · Open-source engineering, built in public.</sub>
 
 </div>
