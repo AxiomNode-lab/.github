@@ -1,122 +1,159 @@
 <div align="center">
 
-<img src="./AxiomNode — Studio Banner.png" alt="AxiomNode" width="100%" />
+<img src="./assets/baner.png" alt="AxiomNode Lab" width="100%" />
+
+<br />
 
 # AxiomNode Lab
 
-**Student-led engineering team building open-source tools, security-focused software, and practical digital products.**
+### Building practical software, security tooling, and open-source technology.
 
-[![Open Source](https://img.shields.io/badge/Open%20Source-built%20in%20public-2ea44f)](https://github.com/AxiomNode-lab)
-[![AxiomGuard](https://img.shields.io/badge/Featured-AxiomGuard-181717?logo=github)](https://github.com/AxiomNode-lab/AxiomGuard)
-[![Members](https://img.shields.io/badge/Team-public%20members-0969da)](https://github.com/orgs/AxiomNode-lab/people)
+<p>
+  <a href="https://github.com/AxiomNode-lab"><img src="https://img.shields.io/badge/GitHub-AxiomNode--lab-181717?logo=github" alt="GitHub" /></a>
+  <a href="https://github.com/AxiomNode-lab/AxiomGuard"><img src="https://img.shields.io/badge/Featured-AxiomGuard-2f81f7?logo=github" alt="AxiomGuard" /></a>
+  <a href="https://github.com/orgs/AxiomNode-lab/people"><img src="https://img.shields.io/badge/Team-Public%20Members-0969da" alt="Team" /></a>
+  <img src="https://img.shields.io/badge/Open%20Source-Built%20in%20Public-2ea44f" alt="Open Source" />
+</p>
 
-**نبني أدوات مفتوحة المصدر ومنتجات تقنية حقيقية من خلال العمل الجماعي والتعلّم بالتطبيق.**
+**نحن فريق طلابي تقني نبني أدوات مفتوحة المصدر ومنتجات رقمية حقيقية من خلال الهندسة العملية والتعلّم بالتطبيق.**
 
 </div>
 
 ---
 
-## What we build
+## ⚡ What we build
 
-AxiomNode Lab is a student-led technology team focused on learning through real engineering work. We take ideas from problem definition to implementation, testing, documentation, release, and maintenance.
+AxiomNode Lab turns real problems into useful software — from the first idea and architecture to implementation, testing, documentation, release, and maintenance.
 
-| Focus | What it means here |
+| Area | What we focus on |
 | --- | --- |
-| **Developer tools** | Reusable packages, automation, CLIs, and integrations that remove repetitive work. |
-| **Security engineering** | Defensive tooling, privacy-aware defaults, secure development patterns, and auditable behavior. |
-| **Open source** | Public code, useful documentation, reproducible builds, issue-driven development, and contributor-friendly workflows. |
-| **Product engineering** | Turning prototypes into usable software with testing, release processes, reliability work, and clear UX. |
-| **Learning by building** | Members gain practical experience through code reviews, ownership, debugging, documentation, and releases. |
+| **Developer Tools** | CLI tools, automation, reusable packages, integrations, and workflows that reduce repetitive work. |
+| **Security Engineering** | Defensive tooling, privacy-aware defaults, secure development patterns, and auditable behavior. |
+| **Open Source** | Public code, practical documentation, reproducible workflows, issues, reviews, and contributor-friendly projects. |
+| **Product Engineering** | Turning prototypes into reliable software with testing, release processes, usability, and maintenance. |
+| **Learning by Building** | Real ownership through debugging, code reviews, documentation, shipping, and continuous improvement. |
 
-## Featured project
+## 🛡️ Featured project
 
-### 🛡️ [AxiomGuard](https://github.com/AxiomNode-lab/AxiomGuard)
+### [AxiomGuard](https://github.com/AxiomNode-lab/AxiomGuard)
 
-A zero-runtime-dependency security SDK for Node.js and TypeScript services.
+A security SDK for Node.js and TypeScript services, designed around focused, testable controls rather than vague security claims.
 
-It brings together practical backend security building blocks including API keys, webhook verification and replay protection, secure cookies, CSRF/CORS controls, defensive HTTP headers, SSRF-oriented URL checks, rate limiting, secret-safe logging, environment validation, a SARIF-capable secret scanner, and Express/Fastify/Hono/Redis adapters.
+It brings together practical backend security building blocks such as API keys, webhook verification and replay protection, secure cookies, CSRF/CORS controls, defensive HTTP headers, SSRF-oriented URL checks, rate limiting, secret-safe logging, environment validation, a SARIF-capable secret scanner, and adapters for Express, Fastify, Hono, and Redis.
 
 ```bash
 npm install @axiomnode-lab/guard
 ```
 
-> We prefer focused, documented controls with explicit security boundaries over broad “secure by default” claims.
+> **Our approach:** clear boundaries, documented behavior, and evidence-backed security claims.
 
-## Our people
+---
+
+## 👥 Our people
 
 <table>
 <tr>
-<td align="center" width="180">
+<td align="center" width="220">
 <a href="https://github.com/imedkablavi">
-<img src="https://github.com/imedkablavi.png?size=110" width="90" alt="Imed Kablavi"/><br/>
+<img src="https://github.com/imedkablavi.png?size=120" width="100" alt="Imed Kablavi" /><br />
 <strong>Imed Kablavi</strong>
-</a><br/>
+</a><br />
 <sub>Co-Founder</sub>
 </td>
-<td align="center" width="180">
+<td align="center" width="220">
 <a href="https://github.com/alaamadii">
-<img src="https://github.com/alaamadii.png?size=110" width="90" alt="Alaa Madi"/><br/>
+<img src="https://github.com/alaamadii.png?size=120" width="100" alt="Alaa Madi" /><br />
 <strong>Alaa Madi</strong>
-</a><br/>
+</a><br />
 <sub>Co-Founder</sub>
 </td>
 </tr>
 </table>
 
-GitHub only shows organization membership publicly when each member chooses **Public** membership. The complete visible roster is available on the [organization People page](https://github.com/orgs/AxiomNode-lab/people).
+GitHub only shows organization membership publicly when each member chooses **Public** membership. The visible roster is available on the [organization People page](https://github.com/orgs/AxiomNode-lab/people).
 
-## How we work
+---
 
-1. Start from a real problem and define a useful scope.
-2. Build the smallest version that can be tested honestly.
-3. Use branches, pull requests, reviews, and CI instead of treating `main` as a scratchpad.
-4. Add negative tests and failure-mode coverage for security-sensitive behavior.
-5. Document what a feature does **and what it does not guarantee**.
-6. Release only after the project has a repeatable build/test path.
-7. Keep improving based on evidence, bug reports, and real usage.
+## 🧭 How we work
 
-## Engineering principles
+```text
+Real problem
+    ↓
+Define scope
+    ↓
+Design & implement
+    ↓
+Test failure modes
+    ↓
+Review & document
+    ↓
+Release
+    ↓
+Measure, learn, improve
+```
 
-- **Useful before impressive** — features should solve a concrete problem.
-- **Security claims need evidence** — tests and documented boundaries come before marketing language.
-- **Small dependencies, clear ownership** — we avoid unnecessary supply-chain surface where practical.
-- **Reproducibility matters** — CI, versioning, release notes, checksums/provenance where appropriate.
-- **Contributors should understand the project quickly** — readable READMEs, issues, examples, and contribution guidance are part of the product.
-- **Private while unfinished, public when ready** — some work stays private until it is suitable for external use.
+We prefer small, understandable steps over inflated roadmaps and marketing language.
 
-## Contribute or collaborate
+### Engineering principles
 
-Public repositories are open for useful issues, pull requests, testing, documentation improvements, and technical discussion. Students and developers who want hands-on experience are welcome to follow the work and contribute where a repository accepts contributions.
+- **Useful before impressive** — every feature should solve a concrete problem.
+- **Security claims need evidence** — tests and explicit boundaries come first.
+- **Small dependencies, clear ownership** — reduce unnecessary supply-chain and maintenance surface where practical.
+- **Reproducibility matters** — CI, versioning, release notes, and provenance where appropriate.
+- **Documentation is part of the product** — contributors should understand the project quickly.
+- **Public when ready** — unfinished work may stay private until it is suitable for external use.
 
-**Good first contribution:** reproduce a bug, improve a test, clarify documentation, or propose a focused feature with a concrete use case.
+---
 
-[Explore repositories](https://github.com/orgs/AxiomNode-lab/repositories) · [View public members](https://github.com/orgs/AxiomNode-lab/people) · [Open AxiomGuard](https://github.com/AxiomNode-lab/AxiomGuard)
+## 🤝 Contribute or collaborate
+
+Public repositories are open to useful issues, pull requests, testing, documentation improvements, and technical discussion.
+
+Students and developers looking for hands-on experience are welcome to follow the work and contribute where a repository accepts contributions.
+
+**A great first contribution:** reproduce a bug, improve a test, clarify documentation, or propose one focused feature backed by a concrete use case.
+
+<p align="center">
+  <a href="https://github.com/orgs/AxiomNode-lab/repositories"><strong>Explore repositories</strong></a>
+  ·
+  <a href="https://github.com/orgs/AxiomNode-lab/people"><strong>Meet the team</strong></a>
+  ·
+  <a href="https://github.com/AxiomNode-lab/AxiomGuard"><strong>Open AxiomGuard</strong></a>
+</p>
 
 ---
 
 <details>
-<summary><strong>نبذة بالعربية</strong></summary>
+<summary><strong>🇹🇷 Türkçe</strong></summary>
 
-<br/>
+<br />
 
-**AxiomNode Lab** فريق طلابي تقني يركز على بناء مشاريع حقيقية بدل الاكتفاء بالتعلّم النظري. نعمل على أدوات مفتوحة المصدر، أدوات للمطورين، مشاريع أمنية، ومنتجات رقمية قابلة للاختبار والنشر والصيانة.
+**AxiomNode Lab**, teorik öğrenmenin ötesine geçerek gerçek yazılım projeleri geliştiren öğrenci odaklı bir teknoloji ekibidir.
 
-نهتم بأن يمر المشروع بمراحل واضحة: تحديد المشكلة، التصميم، البرمجة، الاختبار، المراجعة، التوثيق، ثم الإصدار والتحسين المستمر.
+Açık kaynak araçlar, geliştirici araçları, güvenlik odaklı yazılımlar ve kullanılabilir dijital ürünler geliştiriyoruz. Projelerimizi problem tanımından tasarım ve geliştirmeye, test ve dokümantasyondan yayın ve sürekli iyileştirmeye kadar gerçek bir mühendislik süreciyle ele alıyoruz.
+
+Önceliklerimiz arasında yazılım geliştirme, siber güvenlik ve gizlilik, yapay zekâ, QA/test, dokümantasyon, geliştirici deneyimi ve ürün tasarımı bulunuyor.
+
+Bizim için teknoloji sayısından çok **sorumluluk, açık iletişim, kaliteli iş ve ekip çalışması** önemlidir.
+
+</details>
+
+<details>
+<summary><strong>🇸🇾 العربية</strong></summary>
+
+<br />
+
+**AxiomNode Lab** فريق طلابي تقني يركّز على بناء مشاريع حقيقية بدل الاكتفاء بالتعلّم النظري.
+
+نعمل على أدوات مفتوحة المصدر، أدوات للمطورين، مشاريع أمنية، ومنتجات رقمية قابلة للاختبار والنشر والصيانة. نتابع المشروع من تحديد المشكلة والتصميم والبرمجة، مرورًا بالاختبار والمراجعة والتوثيق، وصولًا إلى الإصدار والتحسين المستمر.
+
+نهتم بالبرمجة وهندسة البرمجيات، الأمن السيبراني والخصوصية، الذكاء الاصطناعي، الاختبارات وQA، التوثيق، تجربة المطور، وتصميم المنتجات.
+
+المهم بالنسبة لنا هو **الالتزام، التواصل الواضح، جودة العمل، وروح الفريق** أكثر من عدد التقنيات التي يعرفها الشخص.
 
 ### كيف تظهر كعضو في المنظمة؟
 
-GitHub يجعل عضوية المنظمة خاصة افتراضيًا. حتى يظهر العضو للعامة ضمن صفحة الفريق، يجب أن يغيّر **Organization membership visibility** الخاصة به إلى **Public** من صفحة **People**.
-
-### نرحب بالمساهمات في
-
-- البرمجة وهندسة البرمجيات
-- الأمن السيبراني والخصوصية
-- الذكاء الاصطناعي
-- الاختبارات وQA
-- التوثيق وتجربة المطور
-- تصميم المنتجات وتجربة المستخدم
-
-المهم بالنسبة لنا هو الالتزام، التواصل الواضح، واحترام العمل الجماعي أكثر من عدد التقنيات التي يعرفها الشخص.
+عضوية المنظمة تكون خاصة افتراضيًا في GitHub. حتى يظهر العضو للعامة ضمن صفحة الفريق، يجب تغيير **Organization membership visibility** إلى **Public** من إعدادات العضوية.
 
 </details>
 
@@ -124,6 +161,8 @@ GitHub يجعل عضوية المنظمة خاصة افتراضيًا. حتى ي
 
 <div align="center">
 
-**Build useful things · Test what matters · Share what is ready**
+### Build useful things · Test what matters · Share what is ready
+
+<sub>© AxiomNode Lab · Open-source engineering, built in public.</sub>
 
 </div>
