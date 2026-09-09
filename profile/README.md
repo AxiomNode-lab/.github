@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/AxiomNode-lab/.github/RELEASE_BANNER_COMMIT/profile/assets/axiomnode-banner-current.png" alt="AxiomNode" width="100%" />
+<img src="https://raw.githubusercontent.com/AxiomNode-lab/.github/3706907a76f82985f340be4b356d05e99982fc44/profile/assets/axiomnode-banner-current.png" alt="AxiomNode" width="100%" />
 
 <br />
 
@@ -40,7 +40,7 @@ Our work spans the full engineering lifecycle: problem definition, architecture,
 
 **Security building blocks for modern Node.js and TypeScript services.**
 
-AxiomGuard provides focused primitives for API keys, signed webhooks and replay protection, browser request policy, idempotency, SSRF-aware outbound requests, rate limiting, secure cookies, CSRF, CORS, defensive headers, environment validation, secret-safe logging, and repository secret scanning. It is framework-neutral at the core and includes adapters for Express, Fastify, Hono, and Redis-backed deployments. citeturn34file0
+AxiomGuard provides focused primitives for API keys, signed webhooks and replay protection, browser request policy, idempotency, SSRF-aware outbound requests, rate limiting, secure cookies, CSRF, CORS, defensive headers, environment validation, secret-safe logging, and repository secret scanning. It is framework-neutral at the core and includes adapters for Express, Fastify, Hono, and Redis-backed deployments.
 
 ```bash
 npm install @axiomnode-lab/guard
@@ -52,7 +52,7 @@ npm install @axiomnode-lab/guard
 
 **Diagnose Linux developer workstations before changing them.**
 
-DevDoctor inspects installed tooling, identifies missing or broken development dependencies, explains PATH and package-manager conflicts, compares project requirements with the local toolchain, and produces preview-first repair or installation plans. Its diagnostic workflows are designed to be read-only by default and avoid guessing when system ownership or policy is ambiguous. citeturn35file0
+DevDoctor inspects installed tooling, identifies missing or broken development dependencies, explains PATH and package-manager conflicts, compares project requirements with the local toolchain, and produces preview-first repair or installation plans. Its diagnostic workflows are designed to be read-only by default and avoid guessing when system ownership or policy is ambiguous.
 
 ```bash
 python -m pip install "git+https://github.com/AxiomNode-lab/DevDoctor.git"
