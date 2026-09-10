@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/AxiomNode-lab/.github/c03f9782e220fb1fe2244b9133a05316f1a94153/profile/assets/AxiomNode%20%E2%80%94%20Studio%20Banner.png" alt="AxiomNode" width="100%" />
+<img src="https://raw.githubusercontent.com/AxiomNode-lab/.github/fc49eab16bb30fb0e7652ad14dab3f043b043ceb/profile/assets/AxiomNode%20%E2%80%94%20Studio%20Banner.png" alt="AxiomNode" width="100%" />
 
 <br />
 
