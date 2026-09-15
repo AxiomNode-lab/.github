@@ -15,7 +15,7 @@
   <img src="https://img.shields.io/badge/Open%20Source-Built%20in%20Public-2ea44f" alt="Open Source" />
 </p>
 
-**We build focused software for real operational problems — with an emphasis on security, reliability, clarity, and maintainability.**
+**We build focused software for real operational problems with an emphasis on security, reliability, clarity, and maintainability.**
 
 </div>
 
