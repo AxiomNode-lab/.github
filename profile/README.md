@@ -33,3 +33,13 @@ Our work spans the full engineering lifecycle: problem definition, architecture,
 | **Developer Tooling** | CLI applications, automation, diagnostics, reusable packages, and workflows that remove engineering friction. |
 | **Infrastructure & Automation** | Reliable developer infrastructure, operational tooling, integrations, and repeatable workflows. |
 | **Product Engineering** | Turning strong technical foundations into software that is usable, testable, and maintainable. |
+
+## Get involved
+
+- **Try AxiomGuard:** [Repository and quick start](https://github.com/AxiomNode-lab/AxiomGuard)
+- **Explore AI Skills Hub:** [Repository and documentation](https://github.com/AxiomNode-lab/AI-Skills-Hub)
+- **Contribute or collaborate:** Read our [open-source support guide](https://github.com/AxiomNode-lab/.github/blob/main/profile/OPEN_SOURCE_SUPPORT.md) for concrete ways to help, sponsorship priorities, and contact details.
+- **Report outcomes responsibly:** Use the [impact report template](https://github.com/AxiomNode-lab/.github/blob/main/profile/IMPACT_REPORT_TEMPLATE.md); publish only metrics that have a verifiable source and reporting period.
+
+For sponsorship, grants, integration discussions, or technical evaluations, contact **info@axiomnode.tech**. Funding and adoption claims are only published when they are verified.
+
