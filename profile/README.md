@@ -40,6 +40,7 @@ Our work spans the full engineering lifecycle: problem definition, architecture,
 - **Explore AI Skills Hub:** [Repository and documentation](https://github.com/AxiomNode-lab/AI-Skills-Hub)
 - **Contribute or collaborate:** Read our [open-source support guide](https://github.com/AxiomNode-lab/.github/blob/main/profile/OPEN_SOURCE_SUPPORT.md) for concrete ways to help, sponsorship priorities, and contact details.
 - **Report outcomes responsibly:** Use the [impact report template](https://github.com/AxiomNode-lab/.github/blob/main/profile/IMPACT_REPORT_TEMPLATE.md); publish only metrics that have a verifiable source and reporting period.
+- **Contact sponsors and contributors:** Use the [outreach templates](https://github.com/AxiomNode-lab/.github/blob/main/profile/OUTREACH_TEMPLATES.md) and personalize every message.
 
 For sponsorship, grants, integration discussions, or technical evaluations, contact **info@axiomnode.tech**. Funding and adoption claims are only published when they are verified.
 
